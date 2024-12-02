@@ -1,0 +1,6 @@
+<h1>Agents List</h1>
+<ol class="agents-list">
+  {{#each agents}}
+    <li><a href="/{{this.name}}">{{capitalize this.name}}</a></li>
+  {{/each}}
+</ol>
